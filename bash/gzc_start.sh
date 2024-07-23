@@ -1,18 +1,16 @@
-#!/bin/bash  
-  
-PROJECT_DIR="/home/ai-work/GzcAI"  
-GZCAI_DIR="${PROJECT_DIR}/gzcai"  
-WEBSITE_DIR="${PROJECT_DIR}/web"  
-  
+#!/bin/bash
 
-cd "$GZCAI_DIR" || exit  
-  
+PROJECT_DIR="/home/ai-work/GzcAI"
+GZCAI_DIR="${PROJECT_DIR}/gzcai"
+WEBSITE_DIR="${PROJECT_DIR}/web"
 
-uvicorn server:app --host 0.0.0.0 --port 8888 & 
+# 启动 FastAPI 应用
+cd "$GZCAI_DIR" || exit
+uvicorn server:app --host 0.0.0.0 --port 8888 &
 
+# 等待 FastAPI 应用启动
 sleep 3
-  
-cd "$WEBSITE_DIR" || exit  
-npm run dev  
-  
 
+# 启动前端开发服务器
+cd "$WEBSITE_DIR" || exit
+npm run dev &
