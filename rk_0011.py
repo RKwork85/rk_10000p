@@ -26,7 +26,7 @@ class ContestEvaluator:
 
         self.num_train_epochs_score = 1 if self.params['num_train_epochs'] in [10, 20, 25] else 0
         self.gradient_accumulation_steps_score = 1 if self.params['gradient_accumulation_steps'] in [14, 28, 30] else 0
-        self.eval_steps_score = 1 if self.params['eval_steps'] in [100, 50, 40] else 0
+        self.eval_steps_score = 1 if self.params['eval_steps'] in [100, 125, 200] else 0
 
         groupA_args = [
             [10, 14, 100],
