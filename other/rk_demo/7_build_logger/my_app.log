@@ -1,0 +1,34 @@
+2024-05-30 14:35:27 | INFO | my_app | This is an informational message.
+2024-05-30 14:35:27 | WARNING | my_app | This is a warning message.
+2024-05-30 14:35:27 | ERROR | my_app | This is an error message.
+2024-05-30 14:35:27 | ERROR | my_app | An error occurred.
+Traceback (most recent call last):
+  File "/home/rkwork/work_place/project/fff/codes_record/Langchain-Chatchat/rk_data/rk_demo/7_build_logger/main.py", line 116, in <module>
+    result = 1 / 0  # 制造一个错误
+ZeroDivisionError: division by zero
+2024-05-30 14:36:19 | INFO | my_app | This is an informational message.
+2024-05-30 14:36:19 | WARNING | my_app | This is a warning message.
+2024-05-30 14:36:19 | ERROR | my_app | This is an error message.
+2024-05-30 14:36:19 | ERROR | my_app | An error occurred.
+Traceback (most recent call last):
+  File "/home/rkwork/work_place/project/fff/codes_record/Langchain-Chatchat/rk_data/rk_demo/7_build_logger/main.py", line 116, in <module>
+    result = 1 / 0  # 制造一个错误
+ZeroDivisionError: division by zero
+2024-05-30 14:37:52 | INFO | my_app | This is an informational message.
+2024-05-30 14:37:52 | WARNING | my_app | This is a warning message.
+2024-05-30 14:37:52 | ERROR | my_app | This is an error message.
+2024-05-30 14:37:52 | ERROR | my_app | An error occurred.
+Traceback (most recent call last):
+  File "/home/rkwork/work_place/project/fff/codes_record/Langchain-Chatchat/rk_data/rk_demo/7_build_logger/main.py", line 116, in <module>
+    result = 1 / 0  # 制造一个错误
+ZeroDivisionError: division by zero
+2024-05-30 14:37:52 | INFO | stdout | over
+2024-05-30 14:42:56 | INFO | my_app | This is an informational message.
+2024-05-30 14:42:56 | WARNING | my_app | This is a warning message.
+2024-05-30 14:42:56 | ERROR | my_app | This is an error message.
+2024-05-30 14:42:56 | ERROR | my_app | An error occurred.
+Traceback (most recent call last):
+  File "/home/rkwork/work_place/project/fff/codes_record/Langchain-Chatchat/rk_data/rk_demo/7_build_logger/main.py", line 116, in <module>
+    result = 1 / 0  # 制造一个错误
+ZeroDivisionError: division by zero
+2024-05-30 14:42:56 | INFO | stdout | over
