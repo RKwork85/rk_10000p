@@ -78,12 +78,12 @@ class C(A, B):
         print("Initializing C")
         super().__init__()  # 这将调用 B 的 __init__ 方法，因为 B 在 C 的类定义中排在 A 之后
 
-    def example_method(self):
+    def __example_method__(self):
         print("Method in C")
         super().example_method()  # 这将调用 B 的 example_method 方法
 
 c_instance = C()
-c_instance.example_method()
+# c_instance.example_method()
 
 
 '''当 __post_init__() 方法在 SwiftArgumentsMixin 中被调用时，
